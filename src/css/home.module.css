@@ -1,0 +1,25 @@
+.notesTitle{
+    text-align: center;
+    color:black
+}
+
+.tagsContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:.5em
+}
+
+.note{
+    color:#777;
+    border:1px solid #777;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px 0;
+    
+}
+
+.link{
+    text-decoration: none;
+    padding:1em
+}
+
