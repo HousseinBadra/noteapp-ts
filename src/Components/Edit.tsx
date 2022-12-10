@@ -40,7 +40,7 @@ export default function Edit() {
   }
 
   function editNote(){
-    edit({title:titleref.current?.value || '',tags:tags,markdown:markdownref.current?.value || '',id:noteId || ''})
+    edit({title:titleref.current?.value || 'Default name',tags:tags,markdown:markdownref.current?.value || '',id:noteId || ''})
     navigate(`/note/${noteId}`)
   }
 
