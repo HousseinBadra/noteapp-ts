@@ -50,7 +50,7 @@ export default function CreateNote() {
 
 function createNote(){
   
-  addnote({title:titleref.current?.value || '',tags:tags,markdown:markdownref.current?.value || '',id:generateUUID()})
+  addnote({title:titleref.current?.value || 'Default name',tags:tags,markdown:markdownref.current?.value || '',id:generateUUID()})
   navigate('/')
 }
 
